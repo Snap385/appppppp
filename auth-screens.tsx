@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { SplashScreen } from '../components/SplashScreen'
+import { SplashScreen } from '@/components/SplashScreen'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function AuthScreens() {
