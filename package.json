@@ -1,0 +1,35 @@
+{
+  "name": "auth-screens",
+  "version": "1.0.0",
+  "description": "Authentication screens for TKM Service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["auth", "nextjs", "react"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.7.0",
+    "bcrypt": "^5.1.1",
+    "framer-motion": "^10.16.5",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.10.3",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "prisma": "^5.7.0",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.2"
+  }
+}
+
